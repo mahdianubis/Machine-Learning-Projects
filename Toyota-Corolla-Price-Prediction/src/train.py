@@ -1,3 +1,4 @@
+import joblib
 import pandas as pd
 from evaluate import evaluate_model
 from sklearn.ensemble import RandomForestRegressor
@@ -23,3 +24,5 @@ model.fit(x_train, y_train)
 # print(best_model)
 
 evaluate_model("RandomForestRegressor", model, x_test, y_test)
+
+joblib.dump(model, "Machine-Learning-Projects/Toyota-Corolla-Price-Prediction/models/car_price_model.pkl")
