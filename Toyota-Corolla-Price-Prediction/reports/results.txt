@@ -1,0 +1,8 @@
+Model name : LinearRegression
+R2 : 82.624
+MAE : 792.89
+MSE : 991212.32
+Model name : RandomForestRegressor
+R2 : 84.990
+MAE : 724.96
+MSE : 927403.96
